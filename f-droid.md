@@ -25,7 +25,7 @@ Android applications.  We will try out some of these applications.
 ## Install an application from F-Droid
 
 On your Android device, open an internet browser and go to
-[https://f-droid.org/][https://f-droid.org].
+[https://f-droid.org/](https://f-droid.org).
 
 There should be a button `download F-droid`, press on this button
 and wait for F-Droid to be downloaded.  Once downloaded, attempt to
@@ -45,7 +45,7 @@ try out the application and describe what it does.  Write down
 where you can find the source code for this application.
 
 If you do not have F-Droid installed, browse
-[https://f-droid.org/en/packages/][https://f-droid.org/en/packages/]
+[https://f-droid.org/en/packages/](https://f-droid.org/en/packages/)
 and describe two applications you find interesting.  Write down
 where you can obtain the source code for these applications.
 
@@ -55,16 +55,16 @@ where you can obtain the source code for these applications.
 As an example:
 
 GCompris
-([https://f-droid.org/en/packages/net.gcompris.full][https://f-droid.org/en/packages/net.gcompris.full])
+([https://f-droid.org/en/packages/net.gcompris.full](https://f-droid.org/en/packages/net.gcompris.full))
 is a suite of educational games for children between the ages of 2 and 10.
 It is developed at
-[https://invent.kde.org/education/gcompris.git][https://invent.kde.org/education/gcompris.git].
+[https://invent.kde.org/education/gcompris.git](https://invent.kde.org/education/gcompris.git).
 
 :::::::::::::::::::::::::::::::::
 
 ## Challenge 2: Can you do it?
 
-Examine [https://f-droid.org/en/contribute/][https://f-droid.org/en/contribute/].
+Examine [https://f-droid.org/en/contribute/](https://f-droid.org/en/contribute/).
 
 How can one contribute to F-Droid?
 Is the source code for running F-Droid available?
@@ -80,12 +80,12 @@ There are many ways to contribute to F-Droid, examples include:
     communication channels
 
 The source code for running F-Droid is available at
-[https://gitlab.com/fdroid/][https://gitlab.com/fdroid/]
+[https://gitlab.com/fdroid/](https://gitlab.com/fdroid/)
 and comprises code for the:
-  1. [Android client][https://gitlab.com/fdroid/fdroidclient]
-  2. [Server tools][https://gitlab.com/fdroid/fdroidserver]
-  3. [App metadata files][https://gitlab.com/fdroid/fdroiddata]
-  4. [Website][https://gitlab.com/fdroid/fdroid-website]
+  1. [Android client](https://gitlab.com/fdroid/fdroidclient)
+  2. [Server tools](https://gitlab.com/fdroid/fdroidserver)
+  3. [App metadata files](https://gitlab.com/fdroid/fdroiddata)
+  4. [Website](https://gitlab.com/fdroid/fdroid-website)
 
 :::::::::::::::::::::::::::::::::
 

@@ -19,7 +19,7 @@ exercises: 0
 ## Introduction
 
 We will follow the introduction to scheme available at
-[https://try.gambitscheme.org/][https://try.gambitscheme.org/].
+[https://try.gambitscheme.org/](https://try.gambitscheme.org/).
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -173,7 +173,7 @@ Lists are not indexed, one accesses the first and last items of a list.
 Vectors are indexed, any item can be accessed, but they are more expensive
 to process.  Scheme is a programming language in the lisp family of
 programming languages
-([https://en.wikipedia.org/wiki/Lisp_(programming_language)][https://en.wikipedia.org/wiki/Lisp_(programming_language)]),
+([https://en.wikipedia.org/wiki/Lisp_(programming_language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))),
 which extensively use lists.
 
 :::::::::::::::::::::::::::::::::

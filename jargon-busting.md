@@ -21,7 +21,7 @@ have you come across and feel you should know better?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 This is modified from the
-[library carpentry jargon busting lesson][https://librarycarpentry.github.io/lc-overview/03-jargon-busting.html].
+[library carpentry jargon busting lesson](https://librarycarpentry.github.io/lc-overview/03-jargon-busting.html).
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 

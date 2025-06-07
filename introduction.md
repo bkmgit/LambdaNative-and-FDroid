@@ -38,16 +38,16 @@ What type of software can be included in F-Droid?
 :::::::::::::::::::::::: solution 
 
 F-Droid is a repository of Free and Open Source Software (FOSS). According
-to the [inclusion policy][https://f-droid.org/en/docs/Inclusion_Policy/],
+to the [inclusion policy](https://f-droid.org/en/docs/Inclusion_Policy/),
 source code for the software needs to be available and under a
 recognized free and open source license.
 
 :::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: Examine the [Software Packet Data Exchange (SPDX) website][https://spdx.org]
+## Challenge 2: Examine the [Software Packet Data Exchange (SPDX) website](https://spdx.org)
 
-What is the purpose of SPDX? Compare two licenses on the [spdx list][https://spdx.org/licenses/].
+What is the purpose of SPDX? Compare two licenses on the [spdx list](https://spdx.org/licenses/).
 How do they differ and why might the differences be important in choosing software you use or
 build upon?
 
