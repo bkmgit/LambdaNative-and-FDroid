@@ -1,45 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/404.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/CODE_OF_CONDUCT.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/LICENSE.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/index.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/404.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/f-droid.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/LICENSE.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/index.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/introduction.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/profiles.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/reference.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/introduction.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/f-droid.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/profiles.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/reference.html</loc>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/jargon-busting.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor/scheme.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/jargon-busting.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://bkmgit.github.io/LambdaNative-and-FDroid/scheme.html</loc>
   </url>
 </urlset>
