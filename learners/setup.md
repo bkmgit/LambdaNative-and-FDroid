@@ -2,53 +2,11 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+You will need access internet access and a web browser that supports javascript. Examples
+include [Chrome](https://www.google.com/chrome/), [Chromium](https://www.chromium.org/Home/)
+and [Firefox](https://www.mozilla.org/en-US/firefox/new/).
 
-## Data Sets
-
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
-
-## Software Setup
-
-::::::::::::::::::::::::::::::::::::::: discussion
-
-### Details
-
-Setup for different systems can be presented in dropdown menus via a `spoiler`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::: spoiler
-
-### Windows
-
-Use PuTTY
-
-::::::::::::::::::::::::
-
-:::::::::::::::: spoiler
-
-### MacOS
-
-Use Terminal.app
-
-::::::::::::::::::::::::
-
-
-:::::::::::::::: spoiler
-
-### Linux
-
-Use Terminal
-
-::::::::::::::::::::::::
-
+You will also want a text editor. Your operating system likely has one pre-installed, for
+example on Windows [notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?ocid=webpdpshare)
+is available.  Other examples include [gedit](https://gedit-text-editor.org/),
+[kate](https://kate-editor.org/) and [notepad++](https://notepad-plus-plus.org/)
