@@ -1,131 +1,113 @@
 ---
-title: "Using RMarkdown"
-teaching: 10
-exercises: 2
+title: "Introduction"
+teaching: 20
+exercises: 4
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- What is this all about?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain main aims of the workshop
+- Describe the tools that will be introduced
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+This lesson aims to introduce [F-Droid][f-droid], a repository of
+open source software available for Android and [LambdaNative][lambdanative],
+a programming framework that uses the [Gambit Scheme][gambit-scheme]
+compiler to create Android applications.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
+The lesson can be completed using an internet browser that supports
+javascript.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Challenge 1: Examine the [F-Droid website][f-droid].
 
-What is the output of this command?
+What type of software can be included in F-Droid?
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
 
 :::::::::::::::::::::::: solution 
 
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
+F-Droid is a repository of Free and Open Source Software (FOSS). According
+to the [inclusion policy][https://f-droid.org/en/docs/Inclusion_Policy/],
+source code for the software needs to be available and under a
+recognized free and open source license.
 
 :::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## Challenge 2: Examine the [Software Packet Data Exchange (SPDX) website][https://spdx.org]
+
+What is the purpose of SPDX? Compare two licenses on the [spdx list][https://spdx.org/licenses/].
+How do they differ and why might the differences be important in choosing software you use or
+build upon?
+
+:::::::::::::::::::::::: solution
+
+SPDX is an organization that promotes open standards to enable efficient exchange of information
+about software, including licensing, security and origin.
+
+There are many possible differences.  Possible points of interest are:
+
+ 1. If you use the software in a web application, do you need to make the source of the web
+    application available?
+ 2. If you include the software in your application and distribute your application, do you
+    need to make the source code of your application available with your application.
+ 
+:::::::::::::::::::::::::::::::::
+
+## Challenge 3: Examine the [LambdaNative website][lambdanative].
+
+What is LambdaNative?
 
 :::::::::::::::::::::::: solution 
 
-You can add a line with at least three colons and a `solution` tag.
+LambdaNative is a framework for making mobile and embedded applications
+using the scheme programming language.  It was originally developed to
+make health monitoring applications.  It is open source and can be used
+to make applications that run on Android, iOs, Linux, Windows, OSX,
+NetBSD, FreeBSD, OpenBSD and OpenWRT.
+
+:::::::::::::::::::::::::::::::::
+
+## Challenge 4:  Examine the [Gambit Scheme website][gambit-scheme].
+
+What is Gambit Scheme?
+
+
+:::::::::::::::::::::::: solution
+
+Gambit scheme is a mature implementation of the Scheme programming language.  It is
+primarily developed as a research project on compiler techniques.  It is Free and
+Open Source Software. 
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
-
-You can also include figures generated from R Markdown:
-
-
-``` r
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
-
-<div class="figure" style="text-align: center">
-<img src="fig/introduction-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
-<p class="caption">Sun arise each and every morning</p>
-</div>
-
-Or you can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
 ::::::::::::::::::::::::::::::::::::: callout
 
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+Gambit Scheme is the scheme implementation used by LambdaNative.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- F-Droid is a repository of free and open source Android applications
+- Free and open source software has licenses governing its use
+- LambdaNative can be used to create Android applications
+- To use LambdaNative one needs to learn to program in Scheme
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[r-markdown]: https://rmarkdown.rstudio.com/
